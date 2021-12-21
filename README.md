@@ -4,7 +4,7 @@ Relasi One to One
 
 ```javascript
     {
-        "_id": "ObjectId('12345')",
+        "_id": ObjectId('12345'),
         "fullName": "Dinda Viera Nursabrina",
         "email": "dinda111@gmail.com",
         "phoneNumber": "0888888111"
@@ -17,7 +17,7 @@ Relasi : one to few
 
 ```javascript
     {
-       "_id": "ObjectId('12345')",
+       "_id": ObjectId('12345'),
        "fullName": "Dinda Viera Nursabrina",
        "email": "dinda111@gmail.com",
        "phoneNumber": "0987167671",
@@ -40,7 +40,7 @@ Relasi : One to Many
 
 ```javascript
     {
-        "_id": "ObjectId('45678')",
+        "_id": ObjectId('45678'),
         "productName": "Kaos Polos",
         "brandName": "SkilShirt",
         "variants": [
@@ -82,7 +82,7 @@ Cinema Schema
 
 ```javascript
     {
-        "_id": "ObjectId('CCC1')",
+        "_id": ObjectId('CCC1'),
         "cinemaName": "CGF",
         "location": "Pondok Indah Mall",
         "films": [
@@ -91,7 +91,7 @@ Cinema Schema
         ]
     },
     {
-        "_id": "ObjectId('CCC2')",
+        "_id": ObjectId('CCC2'),
         "cinemaName": "Cinema31",
         "location": "Mall Kelapa Gading",
         "films": [
